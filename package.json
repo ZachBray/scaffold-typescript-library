@@ -1,0 +1,24 @@
+{
+  "name": "scaffold-typescript-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "lint": "tslint ./**/*.ts",
+    "pretest": "npm run lint",
+    "test": "mocha --require ts-node/register test/**/*.ts",
+    "prebuild": "npm run clean && npm run test",
+    "build": "tsc -p ."
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "rimraf": "^2.5.2",
+    "ts-node": "^0.7.2",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
+  }
+}

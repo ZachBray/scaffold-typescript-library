@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "outDir": "./dist"
+    },
+    "exclude": [
+      "node_modules",
+      "dist",
+      "typings/main.d.ts",
+      "typings/main"
+    ]
+}
