@@ -1,12 +1,16 @@
 {
     "compilerOptions": {
       "target": "ES5",
-      "outDir": "./dist"
+      "outDir": "./dist",
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "noEmitOnError": true,
+      "noImplicitReturns": true,
+      "pretty": true,
+      "strictNullChecks": true
     },
     "exclude": [
       "node_modules",
-      "dist",
-      "typings/main.d.ts",
-      "typings/main"
+      "dist"
     ]
 }

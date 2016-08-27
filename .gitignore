@@ -2,6 +2,6 @@
 .idea/*.*
 *.log
 node_modules
-dist
 typings
+dist
 *.swp
