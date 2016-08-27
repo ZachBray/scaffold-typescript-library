@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "postinstall": "typings i",
     "clean": "rimraf dist",
     "lint": "tslint ./**/*.ts",
     "pretest": "npm run lint",
@@ -14,11 +15,11 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5",
-    "rimraf": "^2.5.2",
-    "ts-node": "^0.7.2",
-    "typescript": "^1.8.10",
-    "typings": "^0.8.1"
+    "chai": "3.5.0",
+    "mocha": "3.0.2",
+    "rimraf": "2.5.4",
+    "ts-node": "1.3.0",
+    "typescript": "2.0.0",
+    "typings": "1.3.3"
   }
 }
