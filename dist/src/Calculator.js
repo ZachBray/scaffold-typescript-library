@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Calculator = (function () {
     function Calculator() {
     }
@@ -7,6 +8,5 @@ var Calculator = (function () {
     };
     return Calculator;
 }());
-Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = Calculator;
 //# sourceMappingURL=Calculator.js.map

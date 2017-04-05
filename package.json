@@ -13,12 +13,14 @@
     "precommit": "yarn run build"
   },
   "devDependencies": {
+    "@types/chai": "^3.4.35",
+    "@types/mocha": "^2.2.40",
     "chai": "3.5.0",
-    "husky": "0.11.9",
+    "husky": "^0.13.3",
     "mocha": "3.2.0",
-    "rimraf": "2.5.4",
-    "ts-node": "1.7.0",
-    "typescript": "2.0.10",
-    "typings": "2.0.0"
+    "rimraf": "^2.6.1",
+    "ts-node": "^3.0.2",
+    "tslint": "^5.0.0",
+    "typescript": "^2.2.2"
   }
 }
